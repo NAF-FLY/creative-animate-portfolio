@@ -37,6 +37,16 @@ body {
 	}
 }
 
+section {
+	width: 100vw;
+	flex-shrink: 0;
+	overflow: hidden;
+}
+
+.wrapper {
+	display: flex;
+}
+
 //
 .rounded {
 	// .rounded__btn
